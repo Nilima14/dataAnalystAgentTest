@@ -1,0 +1,13 @@
+id: scrape-wiki-movies
+metrics:
+  - type: match
+    value:
+      - 1
+      - "Titanic"
+      - 0.485782
+      - "data:image/png;base64"
+steps:
+  - type: python
+    entrypoint: main.py
+    context:
+      body: file://question.txt
