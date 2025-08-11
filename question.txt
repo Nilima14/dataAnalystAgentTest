@@ -1,0 +1,13 @@
+Scrape the table titled "Highest-grossing films" from the Wikipedia page:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Only use the first table under the "Highest-grossing films" heading (do NOT use the inflation-adjusted grosses table).
+
+Answer the following and respond with a JSON array of strings containing the answer:
+
+1. How many films with worldwide gross of $2 billion or more were released before 2000?
+2. Which is the earliest film (by release year) with a worldwide gross over $1.5 billion?
+3. What is the Pearson correlation coefficient between the Rank and Peak columns?
+4. Create a scatterplot of Rank vs Peak with a dotted red regression line, return as base64-encoded PNG ("data:image/png;base64,...") under 100,000 bytes.
+5. What is the average worldwide gross (in USD) of the top 10 highest-grossing films?
+6. List the top 3 films by Peak earnings, including their release years.
